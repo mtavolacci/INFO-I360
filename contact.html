@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		<title> Contact Page | M.C.T Online Portfolio </title>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/styles.css">
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+		
+		<!-- Font Awesome - For Icon -->
+		<script src="https://kit.fontawesome.com/bf37eaf948.js" crossorigin="anonymous"></script>
+	
+		<!-- jQuery -->
+    	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	
+		<!-- JS File -->
+		<script src="js/scripts.js"></script>
+		
+	</head>
+
+	<body>
+	
+		<!-- Navbar Section: Building a Responsive Top Navigation Menu - https://blog.hyperiondev.com/index.php/2019/03/11/building-responsive-top-navigation-menu-html-css/-->
+    <nav class="topnav">
+      <!-- Website Logo MCT: Created using Apple Keynote and saved locally as a PNG file -->
+      <logo><img class="icon" src="images/MCT.png" alt="MCT Logo/Icon" height="48px"/></logo>
+	
+	<!-- An Image As a Link Resource - https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_image -->
+	  
+	  <!-- Handshake Icon - https://career.ucsb.edu/handshake-help-center/update-your-career-interests -->
+	  <a href="https://indiana.joinhandshake.com/users/24629180"><img id="icon" border="0" alt="Handshake Icon/Link" src="images/handshake-icon.png" width="30" height="30"></a>
+      
+      <!-- Github Icon - https://fontawesome.com/icons/github?style=brands -->
+      <a href="https://github.com/mtavolacci/INFO-I360"><img id="icon" border="0" alt="Github Icon/Link" src="images/github-icon.svg" width="30" height="30"></a>
+      
+      <!-- LinkedIN Icon - https://fontawesome.com/icons/linkedin-in?style=brands -->
+      <a href="www.linkedin.com/in/madie-tavolacci-2658441a6"><img id="icon" border="0" alt="LinkedIn Icon/Link" src="images/linkedin-icon.svg" width="30" height="30"></a>
+
+      <ul id="nav_links">
+  		<li><a href="home.html"> HOME </a></li>
+        <li><a href="about.html"> ABOUT </a></li>
+        <li><a href="portfolio.html"> PORTFOLIO </a></li>
+        <li><a class="active" href="contact.html"> CONTACT </a></li>
+      </ul>
+    </nav>
+	
+	<br>
+	
+	<!-- Email Form - https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail -->
+	<h1>Contact Me.</h1>
+	<h3> Send email to mtavolacci23@gmail.com: </h3>
+	
+	<div class="container">
+	
+	<form action="mailto:mtavolacci23@gmail.com" method="post" enctype="text/plain"><br>
+	
+		<lable for="name">Name:</lable>
+		<input type="text" id="name" name="name" placeholder="Your name..."><br><br>
+		
+		<lable for="email">Email:</lable>
+		<input type="text" id="email" name="name" placeholder="Your email..."><br><br>
+		
+		<lable for="comment">Comment:</lable>
+		<input type="text" id="mail" name="mail" placeholder="Your content..."><br><br>
+		
+		
+		<input type="submit" value="Send " &nbsp;> 
+		<input type="reset" value="Reset"><br>
+	</form>
+	</div>
+	
+	
+	</body>
+</html>
